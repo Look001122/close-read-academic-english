@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "close-read-academic-english",
+  "version": "1.0.0",
+  "description": "Analyze academic English using precise grammar categories, heads, attachment, functions, and semantic roles.",
+  "author": {
+    "name": "Look001122",
+    "url": "https://github.com/Look001122"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Academic English Close Reading",
+        "shortDescription": "Understand academic English",
+        "longDescription": "Analyze academic and scientific English with a consistent close-reading method: chunks, categories, heads and projections, attachment, syntactic functions, and semantic roles. Distinguish complements from adjuncts, separate constituency from dependency, and use controlled rewrites and grammar trees. The original skill includes Chinese explanations and translations; explicitly request another response language when desired.",
+        "developerName": "Look001122",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Use Academic English Close Reading to explain the grammar and attachment in this sentence."
+        ],
+        "capabilities": [],
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg"
+      }
+    }
+  },
+  "repository": "https://github.com/Look001122/close-read-academic-english",
+  "homepage": "https://github.com/Look001122/close-read-academic-english"
+}
