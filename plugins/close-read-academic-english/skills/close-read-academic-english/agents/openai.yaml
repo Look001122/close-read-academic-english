@@ -1,0 +1,13 @@
+interface:
+  display_name: 学术英语精读
+  short_description: 按固定层级分析 SCI 句法、动词配价、介词短语与依附关系
+  default_prompt: 请使用 $close-read-academic-english 按学术英语精读流程分析这句话，明确骨架、形式、功能、依附、语义角色并画纵向语法树。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
